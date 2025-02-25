@@ -16,7 +16,7 @@ module alu(
             4'b0111: C = A ^ B; // XOR
             4'b1000: C = A | B; // OR
             4'b1001: C = A & B; // AND
-            4'b1010: C = B; // Just Pass B
+            4'b1010: C = B; 
         
             default: C = 32'b0;
         endcase
